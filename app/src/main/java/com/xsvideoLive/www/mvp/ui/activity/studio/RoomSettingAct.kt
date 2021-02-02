@@ -237,7 +237,9 @@ class RoomSettingAct : BaseMvpActivity<RoomSettingPresenter>(), RoomSettingContr
             mTvRoomPsd.text = ""
         }
 
-        mTvTypeName.setTextColor(Color.parseColor(roomInfo?.roomTypeColor))
+        if(!roomInfo?.roomTypeColor.isNullOrEmpty()) {
+            mTvTypeName.setTextColor(Color.parseColor(roomInfo?.roomTypeColor))
+        }
 
         mTvTypeName.text = roomInfo?.roomNoticeTitle
 

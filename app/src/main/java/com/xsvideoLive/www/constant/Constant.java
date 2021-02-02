@@ -14,7 +14,7 @@ public class Constant {
 
     //微信分享app_id
 //    public static final String APP_ID = "wxf6cc75600ec34445";
-    public static final String APP_ID = "wx94e27a54ac4f8b23";
+    public static final String APP_ID = "wx615053766788b001";
     //腾讯IM appkey
     public static final int IM_APP_KEY = 1400479467;
     //等待短信总时间
@@ -196,7 +196,7 @@ public class Constant {
 
     public static final String PUBLIC_CHAT_GROUP = "public_chat_group";
     //公聊大厅ID
-    public static final String PUBLIC_CHAT_GROUP_ID = "20201103";
+    public static final String PUBLIC_CHAT_GROUP_ID = "30201103";
     //支付结果
     public static final String PAY_RESULT = "pay_result";
 
